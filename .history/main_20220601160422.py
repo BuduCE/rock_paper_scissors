@@ -4,7 +4,7 @@ import random
 
 options = ["r","p","s"]
 pc = random.choice(options)
-#The .lower() is used to prevent error from inputting of uppercase of the options provided
+#The .lower() is used to prevent error from inputting of uppercase of the options provi
 player = input("Select r for rock, p for paper, or s for scissors: ").lower()
 
 print(pc)
