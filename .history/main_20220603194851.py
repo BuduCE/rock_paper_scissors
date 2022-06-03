@@ -32,7 +32,7 @@ elif player == "p":
         print(pc)
         print(player)
         print("You win")
-elif player == "s":
+else if(player == "s":
     if pc == "r":
         print(pc)
         print(player)

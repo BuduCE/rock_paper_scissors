@@ -18,26 +18,10 @@ elif player == "r":
     if pc == "s":
         print(pc)
         print(player)
-        print("You win")
+        print("You lose")
     elif pc == "p":
         print(pc)
         print(player)
-        print("You lose")
+        print("You win")
 elif player == "p":
-    if pc == "s":
-        print(pc)
-        print(player)
-        print("You lose")
-    elif pc == "r":
-        print(pc)
-        print(player)
-        print("You win")
-elif player == "s":
-    if pc == "r":
-        print(pc)
-        print(player)
-        print("You lose")
-    elif pc == "p":
-        print(pc)
-        print(player)
-        print("You win")
+    

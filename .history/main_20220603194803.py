@@ -40,4 +40,4 @@ elif player == "s":
     elif pc == "p":
         print(pc)
         print(player)
-        print("You win")
+        print

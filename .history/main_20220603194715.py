@@ -37,7 +37,4 @@ elif player == "s":
         print(pc)
         print(player)
         print("You lose")
-    elif pc == "p":
-        print(pc)
-        print(player)
-        print("You win")
+        

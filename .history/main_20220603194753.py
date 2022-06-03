@@ -39,5 +39,4 @@ elif player == "s":
         print("You lose")
     elif pc == "p":
         print(pc)
-        print(player)
-        print("You win")
+print(player)
