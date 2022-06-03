@@ -2,7 +2,7 @@
 #First import random module for the pc to select from the option randomly
 import random
 
-while True:
+while:
     options = ["r","p","s"]
     pc = random.choice(options)
     player = None

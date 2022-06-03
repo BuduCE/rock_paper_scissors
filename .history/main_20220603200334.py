@@ -42,9 +42,8 @@ while True:
             print(pc)
             print(player)
             print("You win")
-
     play_again = input("Do you want to play again: (Yes/ No)? ").lower()
 
     if play_again != "yes":
         break
-print("Bye")
+print("Bye")r
