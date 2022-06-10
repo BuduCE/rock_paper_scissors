@@ -40,7 +40,7 @@ while True:
             print("You lose")
         elif pc == "p":
             print("Computer chose: " + pc)
-            print("Player chose: " + player)
+        print("Player chose: " + player)
             print("You win")
 
     replay = input("Do you want to play again: (Yes/ No)? ").lower()

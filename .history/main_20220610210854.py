@@ -27,20 +27,20 @@ while True:
     elif player == "p":
         if pc == "s":
             print("Computer chose: " + pc)
-            print("Player chose: " + player)
+        print("Player chose: " + player)
             print("You lose")
         elif pc == "r":
-            print("Computer chose: " + pc)
-            print("Player chose: " + player)
+            print(pc)
+            print(player)
             print("You win")
     elif player == "s":
         if pc == "r":
-            print("Computer chose: " + pc)
-            print("Player chose: " + player)
+            print(pc)
+            print(player)
             print("You lose")
         elif pc == "p":
-            print("Computer chose: " + pc)
-            print("Player chose: " + player)
+            print(pc)
+            print(player)
             print("You win")
 
     replay = input("Do you want to play again: (Yes/ No)? ").lower()
